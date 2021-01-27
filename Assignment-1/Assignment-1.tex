@@ -4,8 +4,21 @@
 
 \begin{document}
 
-\begin{prob}
-    
+\begin{prob}[最大-最小原理 (maximum-minimum priciple)]
+    令 $H$ 为有一下界的 Hermitian 算符，其本征值为 $E_0\leq E_1\leq E_2\leq\cdots$，对应的本征态为 $\lvert 0\rangle,\lvert 1\rangle,\lvert 2\rangle,\cdots$.
+    \begin{itemize}
+        \item[i)] 令 $\lvert b\rangle$ 为一任意态矢量，$F(b)$ 为
+        \[
+            \frac{\langle\rvert H\lvert\rangle}{\langle\vert\rangle}
+        \]
+        满足条件 $\langle b\vert\rangle=0$ 的最小值. 改变 $\lvert b\rangle$ 证明 $F(b)$ 的最大值为 $E_1$.\\
+        提示：$F(b)$ 可通过下列态矢量 $\lvert\rangle=\langle b\vert 1\rangle\lvert 0\rangle-\langle b\vert 0\rangle\lvert 1\rangle$ 得到.
+        \item[ii)] 令 $\lvert b_1\rangle,\lvert b_2\rangle,\cdots,\lvert b_n\rangle$ 为任意态矢量，$F(b_1,b_2,\cdots,b_n)$ 为
+        \[
+            \frac{\langle\rvert H\lvert\rangle}{\langle\vert\rangle}
+        \]
+        满足条件 $\langle b_1\vert\rangle=\langle b_2\vert\rangle=\cdots=\langle b_n\vert\rangle$ 的最小值. 证明 $F(b_1,b_2,\cdots,b_n)$ 的最大值为 $E_n$.
+    \end{itemize}
 \end{prob}
 \begin{sol}
     
